@@ -21,6 +21,7 @@
 
 
 <br></br>
+![gameplay](https://github.com/jayllfpt/CVPong1972/blob/main/demo.gif)
 
 # Personalization
 <br> The background generated from Bing is 1024x1024, to add background to game windows, I cropped and resized the background and the game windows size to 1280x720.</br>
