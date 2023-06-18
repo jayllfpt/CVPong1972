@@ -9,19 +9,19 @@ cap.set(4, 720)
 
 # Importing all imagesq
 
-imgBat1 = cv2.imread("Pong1972/Resources/bat1.png", cv2.IMREAD_UNCHANGED)
-imgBat2 = cv2.imread("Pong1972/Resources/bat2.png", cv2.IMREAD_UNCHANGED)
-imgGameOver = cv2.imread("Pong1972/Resources/gameOver.png")
+imgBat1 = cv2.imread("CVPong1972/Resources/bat1.png", cv2.IMREAD_UNCHANGED)
+imgBat2 = cv2.imread("CVPong1972/Resources/bat2.png", cv2.IMREAD_UNCHANGED)
+imgGameOver = cv2.imread("CVPong1972/Resources/gameOver.png")
 imgBackground = []
-imgBackground.append(cv2.imread("Pong1972/Resources/Background1.png"))
-imgBackground.append(cv2.imread("Pong1972/Resources/Background2.png"))
-imgBackground.append(cv2.imread("Pong1972/Resources/Background3.png"))
-imgBackground.append(cv2.imread("Pong1972/Resources/Background4.png"))
+imgBackground.append(cv2.imread("CVPong1972/Resources/Background1.png"))
+imgBackground.append(cv2.imread("CVPong1972/Resources/Background2.png"))
+imgBackground.append(cv2.imread("CVPong1972/Resources/Background3.png"))
+imgBackground.append(cv2.imread("CVPong1972/Resources/Background4.png"))
 imgBall = []
-imgBall.append(cv2.imread("Pong1972/Resources/Ball1.png", cv2.IMREAD_UNCHANGED))
-imgBall.append(cv2.imread("Pong1972/Resources/Ball2.png", cv2.IMREAD_UNCHANGED))
-imgBall.append(cv2.imread("Pong1972/Resources/Ball3.png", cv2.IMREAD_UNCHANGED))
-imgBall.append(cv2.imread("Pong1972/Resources/Ball4.png", cv2.IMREAD_UNCHANGED))
+imgBall.append(cv2.imread("CVPong1972/Resources/Ball1.png", cv2.IMREAD_UNCHANGED))
+imgBall.append(cv2.imread("CVPong1972/Resources/Ball2.png", cv2.IMREAD_UNCHANGED))
+imgBall.append(cv2.imread("CVPong1972/Resources/Ball3.png", cv2.IMREAD_UNCHANGED))
+imgBall.append(cv2.imread("CVPong1972/Resources/Ball4.png", cv2.IMREAD_UNCHANGED))
 
 
 # Hand Detector
@@ -105,7 +105,7 @@ while True:
         speedY = 15
         gameOver = False
         score = [0, 0]
-        imgGameOver = cv2.imread("Pong1972/Resources/gameOver.png")
+        imgGameOver = cv2.imread("CVPong1972/Resources/gameOver.png")
 
     if key == ord('v'):
         ibg = 0
